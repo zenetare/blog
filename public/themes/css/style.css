@@ -131,7 +131,7 @@ nav.menu-bar .menu-home ul li.list-home:hover {
 /*********** start slider ************/
 .slider-bar {
     background-image: url(/themes/images/back.png);
-    height: 500px;
+    height: 400px;
     margin-top: 37px;
     margin-bottom: 37px;
     border-radius: 3px;
@@ -139,5 +139,26 @@ nav.menu-bar .menu-home ul li.list-home:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.slider-bar .post-slider-right,
+.slider-bar .post-slider-left {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.slider-bar .post-slider-right .blog-slider-right {
+    border: 1px solid #7668d7;
+    overflow: hidden;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.slider-bar .post-slider-left .blog-slider-left {
+    width: 100%;
+    height: 83.5px;
+    background-color: #7668d773;
+    border: 1px solid #7668d7;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border-radius: 4px;
 }
 /*********** end slider ************/
