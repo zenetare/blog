@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'cocon-next-arabic';
+}
+
+.width-pc {
+    width: 95%;
+}
+.width-all {
+    width: 100%;
+}
+.height-all {
+    height: 100%;
+}
+.margin-rp{
+    margin: 0 auto;
+}
+.ca-right {
+    float: right;
+}
+.ca-left {
+    float: left;
+}
+.border-d {
+    border: 1px solid #2723a9;
+}
+.color-d {
+    color: #2723a9;
+}
+.hover-list:hover {
+    background-color: #302A57;
+}
+
+/*********** start menu logo **************/
+nav.menu-top {
+    height: 90px;
+    background-color: #fff;
+}
+nav .button-user {
+    line-height: 90px;
+}
+nav .button-user button {
+    padding: 7px 13px 7px 40px;
+    background: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    box-shadow: 2px 2px 6px 0px #cccccca6;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+nav .button-user button span.tittle-users {
+    font-size: 13px;
+    font-weight: bold;
+}
+nav .button-user button:hover {
+    background-color: #2723a9;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+nav .button-user .button-login > .icon-users,
+nav .button-user .button-rg > .icon-users {
+    position: absolute;
+    left: 0;
+    background-color: #2723a9;
+    display: block;
+    top: 0;
+    color: #fff;
+    height: 100%;
+    padding: 7px 12px 7px 6px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+}
+nav .button-user .button-rg .icon-users {
+    padding: 7px 10px 7px 6px;
+}
+nav .button-user .button-rg{
+    margin-left: 10px;
+}
+/*********** end menu logo **************/
+/*********** start menu bar ************/
+nav.menu-bar {
+    height: 60px;
+    background-color: #7668d7;
+}
+nav.menu-bar .menu-home ul {
+    height: 60px;
+}
+nav.menu-bar .menu-home ul li {
+    float: right;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+nav.menu-bar .menu-home ul li:hover {
+    box-sizing: content-box;
+    transform: scaleY(1.1);
+    box-shadow: 0 0 6px 1px #5f5d5d73;
+}
+nav.menu-bar .menu-home ul:hover li.list-home {
+    background: none;
+}
+nav.menu-bar .menu-home ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav.menu-bar .menu-home ul li.list-home {
+    font-size: 28px;
+    background-color: #40348A;
+    padding: 0 10px;
+}
+nav.menu-bar .menu-home ul li.list-home:hover {
+    background-color: #302A57;
+}
+/*********** end menu bar *************/
+/*********** start slider ************/
+.slider-bar {
+    background-image: url(/themes/images/back.png);
+    height: 500px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    border-radius: 3px;
+    box-shadow: 0 0 7px 0px #7668d754;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+/*********** end slider ************/
