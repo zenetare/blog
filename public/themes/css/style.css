@@ -31,7 +31,13 @@
 .hover-list:hover {
     background-color: #302A57;
 }
-
+.pa-20 {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
 /*********** start menu logo **************/
 nav.menu-top .logo {
     margin-top: 23px;
@@ -172,3 +178,30 @@ nav.menu-bar .menu-home ul li.list-home:hover {
     border-radius: 4px;
 }
 /*********** end slider ************/
+/*********** start content home ************/
+.side-post {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.side-post .head-content {
+    text-align: right;
+    border-bottom: 1px solid #7668d7;
+    background-color: #7668d7;
+}
+.side-post .head-content h2 {
+    box-sizing: border-box;
+    padding: 12px 19px;
+    color: #fff;
+    font-size: 28px;
+}
+.side-post .body-content .post-blog {
+    width: 30%;
+    height: 550px;
+    border: 1px solid #d2d2d2;
+    float: right;
+    margin-right: 42px;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+/*********** end content home *************/
