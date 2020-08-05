@@ -1,7 +1,9 @@
 <nav class="menu-top width-all">
     <div class="width-pc margin-rp">
         <div class="ca-right">
-
+            <div class="logo">
+                <img src="{{ asset('themes/images/logo-icon.png') }}" alt="">
+            </div>
         </div>
         <div class="ca-left button-user">
             <button class="border-d color-d button-login">

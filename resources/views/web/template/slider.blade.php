@@ -8,6 +8,5 @@
         <div class="blog-slider-left"></div>
         <div class="blog-slider-left"></div>
         <div class="blog-slider-left"></div>
-        <div class="blog-slider-left"></div>
     </div>
 </div>

@@ -33,6 +33,16 @@
 }
 
 /*********** start menu logo **************/
+nav.menu-top .logo {
+    margin-top: 23px;
+    width: 154px;
+    height: 51px;
+}
+nav.menu-top img {
+    width: 100%;
+    height: 100%;
+}
+
 nav.menu-top {
     height: 90px;
     background-color: #fff;
@@ -154,8 +164,8 @@ nav.menu-bar .menu-home ul li.list-home:hover {
 }
 .slider-bar .post-slider-left .blog-slider-left {
     width: 100%;
-    height: 83.5px;
-    background-color: #7668d773;
+    height: 113.5px;
+    background-color: #2723a9d9;
     border: 1px solid #7668d7;
     box-sizing: border-box;
     margin-bottom: 5px;
