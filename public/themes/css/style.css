@@ -183,6 +183,7 @@ nav.menu-bar .menu-home ul li.list-home:hover {
     border: 1px solid #d2d2d2;
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 60px;
 }
 .side-post .head-content {
     text-align: right;
@@ -205,3 +206,13 @@ nav.menu-bar .menu-home ul li.list-home:hover {
     border-radius: 5px;
 }
 /*********** end content home *************/
+/************ start footer *************/
+footer .footer-top{
+    background-color: #40348a;
+    height: 300px;
+}
+footer .footer-bt {
+    background-color: #7668d7;
+    height: 80px;
+}
+/************ end footer ************/
